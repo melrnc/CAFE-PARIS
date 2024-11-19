@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café París I</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    
+    <h1>Café París</h1>
+    <p id="eslogan">Un momento de relax</p>
+    
+    <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="carta.html">Nuestra Carta</a></li>
+        <li><a href="contacto.html">Contacte con nosotros</a></li>
+    </ul>
+
+    <h2>Contacte con Nosotros</h2>
+
+    <form action="procesacontacto.php" method="get">
+        <p> <!-- Campo Nombre y Apellidos -->
+            <label for="nombre">Nombre y Apellidos:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+        </p>
+        <p> <!-- Campo Fecha de Nacimiento -->
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required>
+        </p>
+        <p> <!-- Campo Número de Cafés -->
+            <label for="numero">Número de cafés al día: </label>
+            <input type="number" id="numero" name="numero" min="1" max="5">
+        </p>
+        <p> <!-- Campo para seleccionar cafetería -->
+            <label for="ciudad">Seleccione su cafetería: </label>
+            <select id="ciudad" name="ciudad">
+                <option value="madrid" selected>Madrid</option> 
+                <option value="barcelona">Barcelona</option>
+                <option value="sevilla">Sevilla</option>  
+            </select>
+        </p>
+        <p> <!-- Campo Check -->
+            <label>
+            <input type="checkbox" id="informacion" name="informacion" checked> 
+            Deseo recibir información sobre novedades y ofertas
+            </label> 
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reiniciar</button>
+        </p>
+    </form>
+
+   
+
+
+</body>
+</html>

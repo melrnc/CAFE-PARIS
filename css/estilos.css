@@ -1,0 +1,167 @@
+/* IMPORT GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Parisienne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Chango&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Parisienne&family=Satisfy&display=swap');
+
+/* GENERAL */
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: url(../IMG/taza-cafe.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    color: #fff;
+}
+
+/* LOGO */
+#contenedor-logo {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    margin-bottom: 20px;
+}
+
+#logocafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Redondea las esquinas */
+    display: inline-block; /* Asegura que se alinee correctamente */
+}
+
+/* TÍTULOS */
+h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 4em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-family: "Pacifico";
+    color: #ffe4c4;
+}
+
+/* PARRAFO ESLOGAN */
+
+#eslogan {
+    font-family: "Caveat", cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+    color: cornsilk;
+    border: 2px solid cornsilk;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* LISTA Y ENLACES */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+ul li {
+    color: white;
+    margin: 10px 0;
+}
+
+ul li a {
+    font-family: "Pacifico", cursive;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+ul li a:active {
+    color: darkgoldenrod;
+}
+
+/* PARRAFO DE TEXTO */
+.texto-normal {
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color: #ffe4c4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+
+/*ESTILOS PARA CARTA.HTML*/
+/*ESTILO GFENERAL PARA LA TABLA DE LA CARTA*/
+table {
+    width: 50%; /*Ancho de la tabla*/
+    padding: 20%;
+    margin: 0 auto;
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse; /*Colapsa los bordes de la tabla*/
+    background-color: cornsilk; /*Color del fondo de la tabla*/
+    font-family: "Satisfy", cursive;
+    color: black;
+    font-size: 1.5em;
+    text-align: center; /*Centra el contenido*/
+    vertical-align: center; /*Centra verticalmente*/
+}
+
+/*FILAS TR, PRIMERA Y CUARTA, CLASE "CATEGORIA" */
+tr.categoria {
+    background-color: darkgoldenrod;
+    color: black;
+    font-size: 2em;
+    text-shadow: 3px 3px white; 
+}
+
+/*BORDES PARA LA TABLA, TH Y TD*/
+th, td {
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse; /*Colapsa los bordes*/
+    width: 50%;
+    padding: 20px;
+    vertical-align: center; /*Centra verticalmente*/
+}
+
+/*CLASE PARA LAS IMÁGENES "FOTOCARTA"*/
+.fotocarta {
+    width: 200px;
+    height: 200px;
+}
+
+/*ESTILOS PARA CONTACTO.HTML*/
+/*ESTILOS PARA EL FORMULARIO*/
+form{
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: black;
+}
+
+/*ESTILOS PARA LAS ETIQUETAS*/
+form label {
+    font-family: "Caveat", cursive;
+    color: cornsilk;
+    font-size: 1.5em;
+}
+
+/*ESTILOS PARA INPUTS Y SELECT*/
+form input, form select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
